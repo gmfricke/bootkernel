@@ -1,3 +1,4 @@
+# Some useful Makefile abbreviations
 # $@ = target file
 # $< = first dependency
 # $^ = all dependencies
