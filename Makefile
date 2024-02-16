@@ -23,7 +23,7 @@ kernel.dis: kernel.bin
 bootsect.bin: bootsect.asm
 	nasm $< -f bin -o $@
 
-boothello.bin: bootsect.asm
+boothello.bin: boothello.asm
 	nasm $< -f bin -o $@
 
 os-image.bin: bootsect.bin kernel.bin
